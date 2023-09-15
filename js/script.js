@@ -158,4 +158,10 @@ $(".custom-select").each(function() {
     $(this).parents(".custom-select").find(".custom-select-trigger").text($(this).text());
   });
 
+  $(function(){
 
+    $('.menu__btn').on('click', function () {
+        $('.menu__list').toggleClass('menu__list--active')
+    });
+
+});
