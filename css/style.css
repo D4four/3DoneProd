@@ -1081,7 +1081,9 @@ input:focus ~ .highlight {
 }
 
   
-
+.menu__list {
+  display: none;
+}
   /*frfrfrfrfrfrfrfrfrfrfrfrfr*/
 
   @media (max-width: 1855px) {
@@ -1105,33 +1107,149 @@ input:focus ~ .highlight {
     }
   }
 
-  @media (max-width: 1286px) {
-    .navbar-nav {
-      flex-direction: column;
-      /* text-align: right; */
-      /* align-items: center; */
+  @media (max-width: 1256px) {
+    .menu {
+      left: 40%;
+      right: 60%;
     }
-    .page-header-alpha .navbar-sidebar {
-      width: 100%;
-      top: 5%;
-      /* left: 82%; */
-      /* right: 159px; */
-      padding-right: 240px;
-      text-align: right;
+    .menu__list {
+      display: block;
+    }
+
+    #qmenu {
+      display: none;
     }
   }
-  @media (max-width: 1200px) {
-    .navbar-nav {
-      flex-direction: column;
-      /* text-align: right; */
-      /* align-items: center; */
-    }
-    .page-header-alpha .navbar-sidebar {
-      width: 100%;
-      top: 5%;
-      /* left: 82%; */
-      /* right: 159px; */
-      padding-right: 240px;
-      text-align: right;
+
+  @media (max-width: 1180px) {
+    .menu {
+      left: 30%;
+      right: 62%;
     }
   }
+
+  @media (max-width: 1142px) {
+    .menu {
+      left: 30%;
+      right: 64%;
+    }
+  }
+
+  @media (max-width: 1105px) {
+    .menu {
+      left: 30%;
+      right: 66%;
+    }
+  }
+  @media (max-width: 1072px) {
+    .menu {
+      left: 30%;
+      right: 68%;
+    }
+  }
+
+  @media (max-width: 1044px) {
+    .menu {
+      left: 30%;
+      right: 70%;
+    }
+  }
+
+  @media (max-width: 1012px) {
+    .menu {
+      left: 20%;
+      right: 72%;
+    }
+  }
+
+  @media (max-width: 982px) {
+    .menu {
+      left: 20%;
+      right: 74%;
+    }
+  }
+  @media (max-width: 956px) {
+    .menu {
+      left: 20%;
+      right: 76%;
+    }
+  }
+
+  @media (max-width: 932px) {
+    .menu {
+      left: 20%;
+      right: 78%;
+    }
+  }
+
+  @media (max-width: 906px) {
+    .menu {
+      left: 20%;
+      right: 80%;
+    }
+  }
+
+  @media (max-width: 882px) {
+    .menu {
+      left: 10%;
+      right: 82%;
+    }
+  }
+
+  @media (max-width: 864px) {
+    .menu {
+      left: 10%;
+      right: 84%;
+    }
+  }
+
+  @media (max-width: 842px) {
+    .menu {
+      left: 10%;
+      right: 86%;
+    }
+  }
+
+  @media (max-width: 826px) {
+    .menu {
+      left: 10%;
+      right: 88%;
+    }
+  }
+
+  @media (max-width: 805px) {
+    .menu {
+      left: 10%;
+      right: 90%;
+    }
+  }
+
+  @media (max-width: 788px) {
+    .menu {
+      left: 0;
+      right: 92%;
+    }
+  }
+
+  @media (max-width: 770px) {
+    .menu {
+      display: block !important;
+      left: 0;
+      right: 94%;
+    }
+  }
+
+  @media (min-width:768px) {
+    .menu {
+      display: block !important;
+    }
+  }
+
+
+
+
+
+
+
+
+  
