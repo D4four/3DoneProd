@@ -1112,6 +1112,10 @@ input:focus ~ .highlight {
       position: absolute;
       left: 78px;
     }
+    .menu__list {
+      position: absolute;
+      left: 78px;
+    }
     .menu {
       display: block;
       left: 40%;
@@ -1128,6 +1132,10 @@ input:focus ~ .highlight {
 
   @media (max-width: 1180px) {
     .menu__list.menu__list--active {
+      position: absolute;
+      left: 192px;
+    }
+    .menu__list {
       position: absolute;
       left: 192px;
     }
@@ -1169,6 +1177,10 @@ input:focus ~ .highlight {
       position: absolute;
       left: 260px;
     }
+    .menu__list {
+      position: absolute;
+      left: 260px;
+    }
     .menu {
       left: 20%;
       right: 72%;
@@ -1183,6 +1195,10 @@ input:focus ~ .highlight {
   }
   @media (max-width: 956px) {
     .menu__list.menu__list--active {
+      position: absolute;
+      left: 240px;
+    }
+    .menu__list {
       position: absolute;
       left: 240px;
     }
@@ -1208,6 +1224,11 @@ input:focus ~ .highlight {
 
   @media (max-width: 882px) {
     .menu__list.menu__list--active {
+      position: absolute;
+      left: 308px;
+    }
+
+    .menu__list {
       position: absolute;
       left: 308px;
     }
@@ -1244,6 +1265,10 @@ input:focus ~ .highlight {
       position: absolute;
       left: 274px;
     }
+    .menu__list {
+      position: absolute;
+      left: 274px;
+    }
     .menu {
       left: 10%;
       right: 90%;
@@ -1252,6 +1277,10 @@ input:focus ~ .highlight {
 
   @media (max-width: 788px) {
     .menu__list.menu__list--active {
+      position: absolute;
+      left: 348px;
+    }
+    .menu__list {
       position: absolute;
       left: 348px;
     }
@@ -1309,6 +1338,12 @@ input:focus ~ .highlight {
       position: absolute;
       left: 316px;
     }
+
+    .menu__list {
+      position: absolute;
+      left: 316px;
+    }
+
     .menu {
       left: 0;
       right: 98%;
@@ -1322,8 +1357,25 @@ input:focus ~ .highlight {
     }
   }
 
+  @media (max-width: 710px) {
+    .menu__list.menu__list--active {
+      position: absolute;
+      left: 318px;
+    }
+
+    .menu__list {
+      position: absolute;
+      left: 318px;
+    }
+  }
+
   @media (max-width: 694px) {
     .menu__list.menu__list--active {
+      position: absolute;
+      left: 376px;
+    }
+
+    .menu__list {
       position: absolute;
       left: 376px;
     }
@@ -1345,6 +1397,11 @@ input:focus ~ .highlight {
       position: absolute;
       left: 354px;
     }
+
+    .menu__list {
+      position: absolute;
+      left: 354px;
+    }
     .menu {
         left: -10%;
         right: 108%;
@@ -1360,6 +1417,11 @@ input:focus ~ .highlight {
 
   @media (max-width: 632px) {
     .menu__list.menu__list--active {
+      position: absolute;
+      left: 400px;
+    }
+
+    .menu__list {
       position: absolute;
       left: 400px;
     }
@@ -1381,6 +1443,10 @@ input:focus ~ .highlight {
       position: absolute;
       left: 378px;
     }
+    .menu__list {
+      position: absolute;
+      left: 378px;
+    }
     .menu {
         left: -20%;
         right: 120%;
@@ -1389,6 +1455,10 @@ input:focus ~ .highlight {
 
   @media (max-width: 587px) {
     .menu__list.menu__list--active {
+      position: absolute;
+      left: 426px;
+    }
+    .menu__list {
       position: absolute;
       left: 426px;
     }
