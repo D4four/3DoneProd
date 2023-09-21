@@ -7311,7 +7311,7 @@ a.bg-dark:focus, a.bg-dark:hover {
 }
 }@media (min-width:768px) {
     .d-md-none {
-    display: none!important;
+    /* display: none!important; */
 }
 .d-md-inline {
     display: inline!important;
@@ -12964,7 +12964,7 @@ textarea {
 }
 @media (min-width:768px) {
     .page-header-alpha .navbar-sidebar.icon-only .txt, .page-header-alpha .navbar-sidebar.text-only .icon {
-    display: none;
+    /* display: none; */
 }
 .page-header-alpha .all-menu-wrapper.menu-visible .navbar-mainmenu {
     left: 0;

@@ -1081,7 +1081,7 @@ input:focus ~ .highlight {
 }
 
   
-.menu__list {
+.menu__list, .menu {
   display: none;
 }
   /*frfrfrfrfrfrfrfrfrfrfrfrfr*/
@@ -1108,7 +1108,12 @@ input:focus ~ .highlight {
   }
 
   @media (max-width: 1256px) {
+    .menu__list.menu__list--active {
+      position: absolute;
+      left: 78px;
+    }
     .menu {
+      display: block;
       left: 40%;
       right: 60%;
     }
@@ -1122,6 +1127,10 @@ input:focus ~ .highlight {
   }
 
   @media (max-width: 1180px) {
+    .menu__list.menu__list--active {
+      position: absolute;
+      left: 192px;
+    }
     .menu {
       left: 30%;
       right: 62%;
@@ -1156,6 +1165,10 @@ input:focus ~ .highlight {
   }
 
   @media (max-width: 1012px) {
+    .menu__list.menu__list--active {
+      position: absolute;
+      left: 260px;
+    }
     .menu {
       left: 20%;
       right: 72%;
@@ -1169,6 +1182,10 @@ input:focus ~ .highlight {
     }
   }
   @media (max-width: 956px) {
+    .menu__list.menu__list--active {
+      position: absolute;
+      left: 240px;
+    }
     .menu {
       left: 20%;
       right: 76%;
@@ -1190,6 +1207,11 @@ input:focus ~ .highlight {
   }
 
   @media (max-width: 882px) {
+    .menu__list.menu__list--active {
+      position: absolute;
+      left: 308px;
+    }
+
     .menu {
       left: 10%;
       right: 82%;
@@ -1218,6 +1240,10 @@ input:focus ~ .highlight {
   }
 
   @media (max-width: 805px) {
+    .menu__list.menu__list--active {
+      position: absolute;
+      left: 274px;
+    }
     .menu {
       left: 10%;
       right: 90%;
@@ -1225,31 +1251,178 @@ input:focus ~ .highlight {
   }
 
   @media (max-width: 788px) {
+    .menu__list.menu__list--active {
+      position: absolute;
+      left: 348px;
+    }
     .menu {
       left: 0;
       right: 92%;
     }
   }
 
-  @media (max-width: 770px) {
+  @media (max-width: 768px) {
+    .page-header-alpha .all-menu-wrapper {
+      -webkit-box-pack: end;
+      -ms-flex-pack: end;
+      justify-content: flex-end;
+      position: fixed;
+      z-index: 5;
+      top: -50px;
+      left: 0;
+      width: 100%;
+      max-height: 100%;
+      overflow: inherit;
+      padding: 48px 32px;
+      -webkit-transition: .3s;
+      transition: .3s;
+      opacity: 1;
+      visibility: inherit;
+      -webkit-box-shadow: 0 1px 5px transparent, 0 0 5px transparent;
+      box-shadow: 0 1px 5px transparent, 0 0 5px transparent;
+    }
+  }
+
+  @media (max-width: 750px) {
     .menu {
-      display: block !important;
       left: 0;
       right: 94%;
     }
   }
 
-  @media (min-width:768px) {
+  @media (max-width: 750px) {
     .menu {
-      display: block !important;
+      left: 0;
+      right: 94%;
     }
   }
 
+  @media (max-width: 738px) {
+    .menu {
+      left: 0;
+      right: 96%;
+    }
+  }
 
+  @media (max-width: 720px) {
+    .menu__list.menu__list--active {
+      position: absolute;
+      left: 316px;
+    }
+    .menu {
+      left: 0;
+      right: 98%;
+    }
+  }
 
+  @media (max-width: 707px) {
+    .menu {
+      left: 0;
+      right: 100%;
+    }
+  }
 
+  @media (max-width: 694px) {
+    .menu__list.menu__list--active {
+      position: absolute;
+      left: 376px;
+    }
+    .menu {
+        left: -10%;
+        right: 102%;
+    }
+  }
 
+  @media (max-width: 682px) {
+    .menu {
+        left: -10%;
+        right: 106%;
+    }
+  }
 
+  @media (max-width: 666px) {
+    .menu__list.menu__list--active {
+      position: absolute;
+      left: 354px;
+    }
+    .menu {
+        left: -10%;
+        right: 108%;
+    }
+  }
 
+  @media (max-width: 652px) {
+    .menu {
+        left: -10%;
+        right: 110%;
+    }
+  }
 
-  
+  @media (max-width: 632px) {
+    .menu__list.menu__list--active {
+      position: absolute;
+      left: 400px;
+    }
+    .menu {
+        left: -20%;
+        right: 114%;
+    }
+  }
+
+  @media (max-width: 618px) {
+    .menu {
+        left: -20%;
+        right: 116%;
+    }
+  }
+
+  @media (max-width: 608px) {
+    .menu__list.menu__list--active {
+      position: absolute;
+      left: 378px;
+    }
+    .menu {
+        left: -20%;
+        right: 120%;
+    }
+  }
+
+  @media (max-width: 587px) {
+    .menu__list.menu__list--active {
+      position: absolute;
+      left: 426px;
+    }
+    .menu {
+        left: -30%;
+        right: 124%;
+    }
+  }
+
+  @media (max-width: 568px) {
+    .menu {
+        left: -30%;
+        right: 128%;
+    }
+  }
+
+  @media (max-width: 552px) {
+    .menu {
+        left: -40%;
+        right: 132%;
+    }
+  }
+
+  @media (max-width: 534px) {
+    .menu {
+        left: -40%;
+        right: 136%;
+    }
+  }
+
+  @media (max-width: 520px) {
+    .menu {
+        left: -40%;
+        right: 140%;
+    }
+  }
+
