@@ -132,10 +132,11 @@
     <div class="page-cover">
       <div class="cover-bg bg-img" data-image-src="img/bg.jpg"></div>
 
-      <!-- <div
+      <div
         class="cover-bg-mask bg-color"
-        data-bgcolor="rgba(2, 3, 10, 0.7)"
-      ></div> -->
+        data-bgcolor="rgb(2, 9, 10, 0.48);"
+        style="background-color: rgb(2, 9, 10, 0.48);"
+      ></div>
     </div>
 
     <main class="page-main page-fullpage main-anim" id="mainpage">
@@ -157,7 +158,10 @@
           class="section-wrapper materials anim"
           style="padding-bottom: 10px"
         >
-          <div class="section-materials reduced anim text-left">
+          <div class="section-materials reduced anim text-left" style="
+          background-color: rgb(2 9 10 / 29%);
+          padding: 10px;
+          border-radius: 3%;">
             <div class="media">
               <div class="media-body">
                 <h4>
@@ -298,7 +302,111 @@
         data-section="price"
       >
         <div class="section-wrapper price anim" style="padding-bottom: 10px">
-          <div class="item row justify-content-between fade-1">
+          <div class="wrapper_ wrapper">
+            <i id="left" class="fa-solid fa-angle-left"></i>
+            <ul class="carousel_ carousel">
+              <li class="card">
+                <h2>Расчет стоимости услуг:</h2>
+                <span>
+                  Расчет стоимости производимых основывается на 3 прицнипах:
+                  Исходные данные(наличие 3D модели, чертежей или оригинала
+                  детали); Сложность моделируемой геометрии и соответсвуйщие
+                  ей допуски(при наличии); Количество требуемых деталей и их
+                  объем; Исходя из данных принципов строится цена конечногог
+                  изделия.
+                </span>
+                <span>
+                  Следующим по скорости выполенения заказа при одинаковых
+                  условиях будет выполнен заказ, в котором заказчик
+                  изначально предоставит чертежи(желательно по ГОСТ), или
+                  хотя бы эскизы, по которым можно разобрать все требуемые
+                  размеры и построить 3D модель.
+                </span>
+                <span>
+                  Последним по скорости выполенния будет выполнен заказ, в
+                  котором заказчик предоставляет исходную деталь. Все
+                  размеры снимаются нами и производится полное
+                  копирование(или с требуемыми доработками) детали.
+                </span>
+              </li>
+              <li class="card">
+                <h2>Приоритет скорости выполнения заказов:</h2>
+                <span>
+                  При условии одинакового объема и количества
+                  изготавливаемых изделий, быстрее будет выполнен тот заказ,
+                  в котором будет изначально предоставлена заказчиком 3D
+                  модель в формате STL, 3MF, OBJ, STEP и другие(принимаем
+                  любые форматы).
+                </span>
+                <span>
+                  Следующим по скорости выполенения заказа при одинаковых
+                  условиях будет выполнен заказ, в котором заказчик
+                  изначально предоставит чертежи(желательно по ГОСТ), или
+                  хотя бы эскизы, по которым можно разобрать все требуемые
+                  размеры и построить 3D модель.
+                </span>
+                <span>
+                  Последним по скорости выполенния будет выполнен заказ, в
+                  котором заказчик предоставляет исходную деталь. Все
+                  размеры снимаются нами и производится полное
+                  копирование(или с требуемыми доработками) детали.
+                </span>
+              </li>
+              <li class="card">
+                <h2>Расчет стоимости 3D сканирования</h2>
+                <span>
+                  Минимальная стоимость заказа на 3D сканирование: 3000
+                  рублей. Стоимость 3D сканирования имеет прямую зависимость
+                  со следующими факторами: Размер сканируемой детали(совсем
+                  меленькая деталь будет дороже, как и большая); Требуемый
+                  реверс инженеринг(обратное моделирование детали по снимкам
+                  сканера, для редактирования детали в CAD программах);
+                  Срочность заказа.
+                </span>
+              </li>
+              <li class="card">
+                <h2>Расчет стоимости пластиковой 3D печати</h2>
+                <span>
+                  Минимальная стоимость заказа на пластиковую 3D печать: 800
+                  рублей.<br />
+                  на фотополимерную 3D печать: 1000 рублей.<br />
+
+                  Стоимость 3D печати рассчитывается исходя из:<br />
+                  - Объема и тип пластика, требуемого для построения
+                  модели;<br />
+                  - Необходимости поддержек для нависающих частей модели;<br />
+                  - Времени печати модели, зависящее от детализации модели и
+                  профиля печати.<br />
+
+                  Конкретная стоимость печати уточняется индивидуально при
+                  обращении.
+                </span>
+              </li>
+              <li class="card">
+                <h2>Расчет стоимости титановой 3D печати</h2>
+                <span>
+                  Минимальная стоимость заказа на пластиковую 3D печать: 800
+                  рублей.<br />
+
+                  Стоимость 3D печати из титана рассчитывается исходя из:<br />
+                  - Обьема титанового порошка, необходимого для изготовления
+                  модели;<br />
+                  - Требований чистоты поверхности конечного
+                  изделия(полировка, пескоструйная обработка);<br />
+                  - Количества деталей в заказе;<br />
+                  - Загрузки оборудования и инженеров;<br />
+
+                  Конкретная стоимость печати уточняется индивидуально при
+                  обращении.
+                </span>
+              </li>
+            </ul>
+            <i id="right" class="fa-solid fa-angle-right"></i>
+          </div>
+        </div>
+      </div>
+        <!-- <div class="section-wrapper price anim" style="padding-bottom: 10px">
+          <div class="item row justify-content-between fade-1" >
             <div class="col-12 col-md-6 col-lg-6">
               <div class="section-content">
                 <div class="media">
@@ -417,7 +525,7 @@
             </div>
           </div>
         </div>
-      </div>
+      </div> -->
 
       <div
         class="section section-projects fp-auto-height-responsive"
@@ -430,11 +538,22 @@
 
           <div class="container-gallery">
             <div class="gallery-wrap">
-              <div class="item item-1"></div>
-              <div class="item item-2"></div>
-              <div class="item item-3"></div>
-              <div class="item item-4"></div>
-              <div class="item item-5"></div>
+              <div class="item item-1">
+                <!-- <h3>Фигурка такая-то</h3>
+                <h3>Пластик такой-то</h3> -->
+              </div>
+              <div class="item item-2">
+                <!-- <h3>text 1</h3> -->
+              </div>
+              <div class="item item-3">
+                <!-- <h3>text 1</h3> -->
+              </div>
+              <div class="item item-4">
+                <!-- <h3>text 1</h3> -->
+              </div>
+              <div class="item item-5">
+                <!-- <h3>text 1</h3> -->
+              </div>
             </div>
           </div>
         </div>
@@ -445,7 +564,10 @@
         data-section="terms"
       >
         <div class="section-wrapper terms anim" style="padding-bottom: 10px">
-          <div class="item row justify-content-between fade-1">
+          <div class="item row justify-content-between fade-1" style="
+          background-color: rgb(2 9 10 / 29%);
+          padding: 10px;
+          border-radius: 3%;">
             <div class="col-12 col-md-6 col-lg-6">
               <div class="section-content">
                 <div class="media">
