@@ -177,4 +177,12 @@ $(".custom-select").each(function() {
         $('.menu__list').toggleClass('menu__list--active')
     });
 
-});
+  });
+
+  $(function(){
+
+    $('.menu__list-link').on('click', function () {
+        $('.menu__list').removeClass('menu__list--active')
+    });
+
+  });
