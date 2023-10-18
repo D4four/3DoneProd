@@ -1510,7 +1510,7 @@ input:focus ~ .highlight {
       right: 92%;
     }
     
-
+  }
   @media (max-width: 768px) {
     .page-header-alpha .all-menu-wrapper {
       -webkit-box-pack: end;
@@ -1700,6 +1700,10 @@ input:focus ~ .highlight {
 
     .container {
       width: 90vw;
+    }
+
+    .section-wrapper .title {
+      font-size: 120px;
   }
 
   }
