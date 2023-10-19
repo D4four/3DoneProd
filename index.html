@@ -912,6 +912,7 @@
                   .then((response) => {
                     console.log("Success!", response);
                     // Выполняем перезагрузку страницы после успешного запроса
+                    alert("Ваша заявка успешно отправлена!")
                     location.reload();
                   })
                   .catch((error) => console.error("Error!", error.message));
